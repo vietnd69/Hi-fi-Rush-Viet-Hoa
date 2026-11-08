@@ -20,6 +20,7 @@ Bạn có thể tải tại trang **[Releases](https://github.com/vietnd69/Hi-fi
 
 ### Cách 1: Cài tự động bằng `HiFiRush_VietHoa_Setup.exe` (Nhanh & Dễ nhất)
 1. Tải và mở **[`HiFiRush_VietHoa_Setup.exe`](dist/HiFiRush_VietHoa_Setup.exe)**.
+   - *Lưu ý:* Nếu Windows hiện bảng thông báo xanh **Windows SmartScreen** (*"Windows protected your PC"* do bộ cài cộng đồng không mua chứng chỉ thương mại của Microsoft), bạn chỉ cần bấm **More info (Thông tin thêm)** → **Run anyway (Vẫn chạy)**.
 2. Bộ cài sẽ **tự động quét ổ cài đặt của Steam** và điền sẵn đường dẫn thư mục `Hi-Fi RUSH`.
    - Nếu bạn cài game ở nơi khác, bấm nút **Chọn thư mục...** và chọn tới thư mục `Hi-Fi RUSH`.
 3. Bấm **CÀI ĐẶT VIỆT HÓA** và đợi thanh tiến trình chạy tới 100%.
@@ -38,6 +39,23 @@ Bạn có thể tải tại trang **[Releases](https://github.com/vietnd69/Hi-fi
 
 ### Cách 3: Chỉ dùng gói `.pak` rời (`HiFiRush_VietHoa_Pack_PakOnly.zip`)
 - Giải nén `HiFiRush_VietHoa_Pack_PakOnly.zip`, chạy `CAI_DAT.bat` và thêm `-fileopenlog` vào *Launch Options* trên Steam (lưu ý: cách này chỉ nạp phần chữ, không nạp được container IoStore chứa phông chữ tiếng Việt).
+
+---
+
+## 🛡️ Kiểm Tra An Toàn & Mã Băm Toàn Vẹn (SHA-256)
+
+- **Minh bạch mã nguồn 100%**: Toàn bộ mã nguồn C# của bộ cài `HiFiRush_VietHoa_Setup.exe` được công khai tại [`dist_src/Installer.cs`](dist_src/Installer.cs). Bộ cài được biên dịch trực tiếp bằng trình biên dịch chuẩn của Microsoft (`.NET Framework csc.exe`), **không mã hóa/làm rối code (no obfuscation), không yêu cầu quyền Administrator, không kết nối mạng**.
+- **Đã kiểm tra sạch 100% với Windows Defender (`MpCmdRun.exe`)**: `found no threats`.
+- Nếu bạn ngại chạy file `.exe`, hãy tải gói nén **[`HiFiRush_VietHoa_Pack_Full.zip`](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_Pack_Full.zip)** để tự giải nén thủ công.
+
+### Bảng mã kiểm tra `SHA-256` (Checksums)
+Bạn có thể đối chiếu mã `SHA-256` của file tải về bằng lệnh PowerShell `Get-FileHash <tên_file> -Algorithm SHA256`:
+
+| Tên file | Mã băm `SHA-256` |
+| :--- | :--- |
+| `HiFiRush_VietHoa_Setup.exe` | `2C72267395238952C6116158E3D4E0AAE32FA614B93FBD20724763A38EB86157` |
+| `HiFiRush_VietHoa_Pack_Full.zip` | `3C93EC7F391E2AB399A4FBBB4D262E8FD2010BB2D05DAB01F42C7106F883D931` |
+| `HiFiRush_VietHoa_Pack_PakOnly.zip` | `949D9EC4BC9B7F12739D5C47AF4BE1119626D35C87BC77E6E7611B63E84033E8` |
 
 ---
 

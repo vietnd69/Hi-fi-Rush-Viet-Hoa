@@ -1,7 +1,10 @@
-# Ignore everything except README.md and the distributable installer & packs
+# Ignore everything except README.md, installer C# source, and the distributable installer & packs
 /*
 !/.gitignore
 !/README.md
+!/dist_src/
+/dist_src/*
+!/dist_src/Installer.cs
 !/dist/
 /dist/*
 !/dist/HiFiRush_VietHoa_Setup.exe
