@@ -1,0 +1,11 @@
+# Ignore everything except README.md and the distributable installer & packs
+/*
+!/.gitignore
+!/README.md
+!/dist/
+/dist/*
+!/dist/HiFiRush_VietHoa_Setup.exe
+!/dist/HiFiRush_VietHoa_Pack_Full.zip
+!/dist/HiFiRush_VietHoa_Pack_PakOnly.zip
+!/dist/HUONG_DAN.md
+!/dist/xem_truoc_font.png
