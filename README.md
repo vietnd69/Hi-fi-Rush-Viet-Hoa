@@ -1,71 +1,46 @@
-# 🎸 Hi-Fi RUSH — Bản Việt Hóa Toàn Diện (v1.0)
+# Hi-Fi RUSH Việt hóa v2
 
-Bản Việt hóa hoàn chỉnh cho tựa game hành động nhịp điệu **Hi-Fi RUSH**, bao gồm **8.494 dòng** (hội thoại cốt truyện, giao diện, hướng dẫn chiến đấu, hồ sơ Vandelay, mô tả chip/kỹ năng...) cùng **bộ phông chữ tiếng Việt** đồng bộ theo đúng phong cách comic của game.
+Bản dịch **8.509 dòng**, kèm font tiếng Việt và Overdub trong một bộ cài Windows.
 
----
+## Tải và cài đặt
 
-## 📥 Tải Xuống (Chọn 1 trong 3 gói phù hợp với bạn)
+Tải **[HiFiRush_VietHoa_v2_Setup.exe](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_v2_Setup.exe)** tại [release mới nhất](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest).
+File cũng có trong [dist_v2](dist_v2/HiFiRush_VietHoa_v2_Setup.exe).
 
-Bạn có thể tải tại trang **[Releases](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases)** hoặc tải trực tiếp trong thư mục [`dist/`](dist/):
+1. Thoát game rồi mở EXE.
+2. Kiểm tra thư mục game được nhận diện; bấm **Chọn thư mục** nếu cần.
+3. Bấm **Cài đặt Việt hóa** và chờ hoàn tất.
+4. Mở game qua Steam, đặt ngôn ngữ chữ là **English**.
 
-| Gói cài đặt | Dung lượng | Mô tả & Đối tượng khuyên dùng |
-| :--- | :---: | :--- |
-| **[`HiFiRush_VietHoa_Setup.exe`](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_Setup.exe)** | ~71 MB | **Khuyên dùng (1-Click):** Bộ cài tự động nhận diện thư mục game Steam, tự cài đặt đầy đủ chữ + phông chữ + Overdub loader + sửa lỗi kẹt Tutorial. Hỗ trợ gỡ cài đặt 1 chạm. |
-| **[`HiFiRush_VietHoa_Pack_Full.zip`](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_Pack_Full.zip)** | ~71 MB | **Gói giải nén thủ công (Đầy đủ):** Dành cho người không muốn chạy file `.exe`. Chỉ cần giải nén trực tiếp vào thư mục gốc của game `Hi-Fi RUSH`. |
-| **[`HiFiRush_VietHoa_Pack_PakOnly.zip`](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_Pack_PakOnly.zip)** | ~0.4 MB | **Gói `.pak` thuần (Chỉ phần chữ):** Chứa `Hibiki-WindowsNoEditor_9999_P.pak` + `.sig` kèm script cài đặt tự động cho người chỉ muốn dùng file `.pak`. |
+Không cần giải nén ZIP hoặc cài công cụ phát triển. Xem [hướng dẫn cài/gỡ](dist_v2/HUONG_DAN_v2.md).
 
----
+## Gỡ và phục hồi
 
-## 🚀 Hướng Dẫn Cài Đặt
+Thoát game, mở lại đúng bộ cài v2, chọn cùng thư mục và bấm **Gỡ Việt hóa**.
+Các file được phục hồi về trạng thái trước khi cài v2, gồm bản Việt hóa cũ nếu đã có.
+Giữ file `.viet-hoa-v2-backup.zip` trong thư mục game để phục hồi. Bộ cài giữ save và mod khác;
+file đã bị sửa sau khi cài sẽ được giữ lại và báo lỗi thay vì bị xóa hoặc ghi đè.
 
-### Cách 1: Cài tự động bằng `HiFiRush_VietHoa_Setup.exe` (Nhanh & Dễ nhất)
-1. Tải và mở **[`HiFiRush_VietHoa_Setup.exe`](dist/HiFiRush_VietHoa_Setup.exe)**.
-   - *Lưu ý:* Nếu Windows hiện bảng thông báo xanh **Windows SmartScreen** (*"Windows protected your PC"* do bộ cài cộng đồng không mua chứng chỉ thương mại của Microsoft), bạn chỉ cần bấm **More info (Thông tin thêm)** → **Run anyway (Vẫn chạy)**.
-2. Bộ cài sẽ **tự động quét ổ cài đặt của Steam** và điền sẵn đường dẫn thư mục `Hi-Fi RUSH`.
-   - Nếu bạn cài game ở nơi khác, bấm nút **Chọn thư mục...** và chọn tới thư mục `Hi-Fi RUSH`.
-3. Bấm **CÀI ĐẶT VIỆT HÓA** và đợi thanh tiến trình chạy tới 100%.
-4. Mở game trực tiếp từ Steam (trong mục *Options → Language*, giữ ngôn ngữ chữ là **English** để hiển thị Tiếng Việt).
-5. Khi muốn gỡ bỏ bản Việt hóa để về nguyên bản, mở lại `HiFiRush_VietHoa_Setup.exe` và bấm **Gỡ Việt hóa**.
+## Thay đổi ở v2
 
----
+- Đóng gói đúng bản dịch v2 đã QA, font và loader; luồng tạo bộ cài mặc định không còn lấy tài nguyên v1.
+- Tự sao lưu loader, cấu hình và file Việt hóa cũ có xung đột trước khi cài.
+- Kiểm tra payload và snapshot bản dịch trước khi dựng EXE; kiểm tra hash trước khi cài lại hoặc gỡ.
 
-### Cách 2: Cài thủ công bằng `HiFiRush_VietHoa_Pack_Full.zip`
-1. Tải file **[`HiFiRush_VietHoa_Pack_Full.zip`](dist/HiFiRush_VietHoa_Pack_Full.zip)**.
-2. Giải nén toàn bộ nội dung bên trong vào thư mục gốc cài đặt game (ví dụ: `D:\SteamLibrary\steamapps\common\Hi-Fi RUSH\`).
-   - Sau khi giải nén, thư mục `<Game>\Hibiki\Binaries\Win64\` sẽ có `overdub.dll`, `XAPOFX1_5.dll`, `overdub-config.ini` và thư mục `mods\vietnamese.hifirush\`.
-3. Mở game bình thường từ Steam (không cần thêm Launch Options).
+ZIP kiểm thử v2 trước đây chỉ chứa mod và cần loader có sẵn, khác gói Full của v1.
+Dùng EXE ở trên để cài thông thường. Các file trong `dist/` thuộc v1;
+[bản phát hành v1](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/tag/v1.0.0) được giữ để tham khảo.
 
----
+## Phạm vi kiểm chứng
 
-### Cách 3: Chỉ dùng gói `.pak` rời (`HiFiRush_VietHoa_Pack_PakOnly.zip`)
-- Giải nén `HiFiRush_VietHoa_Pack_PakOnly.zip`, chạy `CAI_DAT.bat` và thêm `-fileopenlog` vào *Launch Options* trên Steam (lưu ý: cách này chỉ nạp phần chữ, không nạp được container IoStore chứa phông chữ tiếng Việt).
+Đã thử chính EXE trên thư mục mô phỏng: cài mới, cài lại, chuyển từ v1, giữ mod/cấu hình khác,
+gỡ phục hồi đúng từng byte, từ chối thư mục sai và file bị sửa sau khi cài.
+**Chưa xác nhận chạy trong game thật**, gồm font, khung chữ và ổn định khi chơi.
+Build nguồn được quan sát: **Steam 20567064**. Chưa có bằng chứng v2 tương thích phiên bản khác.
 
----
+## Mã nguồn và kiểm tra file
 
-## 🛡️ Kiểm Tra An Toàn & Mã Băm Toàn Vẹn (SHA-256)
+[Mã nguồn bộ cài C#](tools/InstallerV2.cs). Bộ cài chưa ký số.
+Đối chiếu SHA-256 của file tải về với [SHA256SUMS.txt](dist_v2/RELEASE_SHA256SUMS.txt).
 
-- **Minh bạch mã nguồn 100%**: Toàn bộ mã nguồn C# của bộ cài `HiFiRush_VietHoa_Setup.exe` được công khai tại [`dist_src/Installer.cs`](dist_src/Installer.cs). Bộ cài được biên dịch trực tiếp bằng trình biên dịch chuẩn của Microsoft (`.NET Framework csc.exe`), **không mã hóa/làm rối code (no obfuscation), không yêu cầu quyền Administrator, không kết nối mạng**.
-- **Đã kiểm tra sạch 100% với Windows Defender (`MpCmdRun.exe`)**: `found no threats`.
-- Nếu bạn ngại chạy file `.exe`, hãy tải gói nén **[`HiFiRush_VietHoa_Pack_Full.zip`](https://github.com/vietnd69/Hi-fi-Rush-Viet-Hoa/releases/latest/download/HiFiRush_VietHoa_Pack_Full.zip)** để tự giải nén thủ công.
-
-### Bảng mã kiểm tra `SHA-256` (Checksums)
-Bạn có thể đối chiếu mã `SHA-256` của file tải về bằng lệnh PowerShell `Get-FileHash <tên_file> -Algorithm SHA256`:
-
-| Tên file | Mã băm `SHA-256` |
-| :--- | :--- |
-| `HiFiRush_VietHoa_Setup.exe` | `123DF157A93BC00264082E19ADFE851D626E69E681060C91F35165B49A14D2E1` |
-| `HiFiRush_VietHoa_Pack_Full.zip` | `5E23C3F13B8FE295D794AF2FC36F9B1EBF4345F419D8D460643D3BCA0D4AC750` |
-| `HiFiRush_VietHoa_Pack_PakOnly.zip` | `C19C8588B259D693A966E9C7AD76B02916C93CDE83D40921294835E70D1A6750` |
-
----
-
-## ✨ Điểm Nổi Bật Của Bản Việt Hóa
-
-- **Đầy đủ 100% văn bản (`8.494` dòng)**:
-  - Dịch thuật & hiệu đính xuyên suốt theo đúng tính cách nhân vật: giữ trọn cá tính phóng khoáng, hài hước của **Chai**, sự sắc sảo của **Peppermint**, nét điềm đạm của **Macaron**, chất giọng nghiêm nghị pha chút lúng túng của **Korsica**, cùng phong cách châm biếm công sở của tập đoàn **Vandelay**.
-- **Phông chữ Tiếng Việt chuẩn Comic ([`xem_truoc_font.png`](dist/xem_truoc_font.png))**:
-  - Font gốc của game (`FOT-UDKakugo` / `FOT-NewRodin`) vốn thiếu 92 ký tự dấu tiếng Việt. Bản Việt hóa đã tích hợp **Google Sans Flex** (đủ các độ đậm từ UltraLight 200 tới Ultra 1000) và **Fjalla One**, giữ nguyên bộ ký tự Nhật/Hán và hiển thị sắc nét mọi dấu tiếng Việt.
-- **Tích hợp sẵn cấu hình sửa lỗi kẹt Tutorial của Overdub**:
-  - Mặc định Overdub v3.0.0 bật `builtin.cheats` (`disable-tutorials = true`) làm mất hộp thoại hướng dẫn ở màn đầu tiên. Bộ cài và gói Pack tại đây đã tự động tắt `builtin.cheats` và đặt `disable-tutorials = false` để bạn chơi mượt từ đầu tới cuối.
-
-![Xem trước phông chữ tiếng Việt](dist/xem_truoc_font.png)
+SHA-256 của EXE: `04588f90ef178f309d6c25b3f4af13051ee52341e222cc46c7f6e07ce0047896`.

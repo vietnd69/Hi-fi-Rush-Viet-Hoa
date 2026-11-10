@@ -12,3 +12,13 @@
 !/dist/HiFiRush_VietHoa_Pack_PakOnly.zip
 !/dist/HUONG_DAN.md
 !/dist/xem_truoc_font.png
+
+# Current v2 installer and its matching public source
+!/dist_v2/
+/dist_v2/*
+!/dist_v2/HiFiRush_VietHoa_v2_Setup.exe
+!/dist_v2/HUONG_DAN_v2.md
+!/dist_v2/RELEASE_SHA256SUMS.txt
+!/tools/
+/tools/*
+!/tools/InstallerV2.cs
