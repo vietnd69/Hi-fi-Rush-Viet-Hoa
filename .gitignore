@@ -1,24 +1,9 @@
-# Ignore everything except README.md, installer C# source, and the distributable installer & packs
+# Only the public distribution and its download guide are versioned.
 /*
 !/.gitignore
 !/README.md
-!/dist_src/
-/dist_src/*
-!/dist_src/Installer.cs
 !/dist/
 /dist/*
-!/dist/HiFiRush_VietHoa_Setup.exe
-!/dist/HiFiRush_VietHoa_Pack_Full.zip
-!/dist/HiFiRush_VietHoa_Pack_PakOnly.zip
-!/dist/HUONG_DAN.md
-!/dist/xem_truoc_font.png
-
-# Current v2 installer and its matching public source
-!/dist_v2/
-/dist_v2/*
-!/dist_v2/HiFiRush_VietHoa_v2_Setup.exe
-!/dist_v2/HUONG_DAN_v2.md
-!/dist_v2/RELEASE_SHA256SUMS.txt
-!/tools/
-/tools/*
-!/tools/InstallerV2.cs
+!/dist/HiFiRush_VietHoa_v2_Setup.exe
+!/dist/HUONG_DAN_v2.md
+!/dist/RELEASE_SHA256SUMS.txt
